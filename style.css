@@ -1,0 +1,88 @@
+*{
+	padding: 0;
+	margin-top: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header{
+}
+header h1{
+	float: left;
+	padding: 15px 0px;
+	background-color: yellow;
+	color:blue;
+}
+header ul{
+	float: right;
+	background-color: yellow;
+	color:blue;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color:aqua;
+	color: blue;
+}
+
+.banner{
+	height: 100vh;
+	background-image: url(./img/banner.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.banner h2{
+	color:yellow;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid yellow;
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: blue;
+}
+.about p{
+	color: blue;
+	word-spacing: 2px;
+	line-height: 25px;	
+}
+.contact{
+	padding: 40px 0;
+	background-color:white;
+}
+footer{
+	padding: 30px 0;
+	background-color: yellow;
+	color: blue;
+	text-align: center;
+}
+.product{
+	padding: 30px 0;
+	background-color: yellow;
+	color: blue;
+	text-align: center;
+}
